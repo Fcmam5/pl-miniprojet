@@ -1,5 +1,4 @@
 #contrainte de positivité
-
 var x1 >= 0;
 var x2 >= 0;
 var x3 >= 0;
