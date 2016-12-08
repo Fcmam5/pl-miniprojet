@@ -10,7 +10,7 @@ var Xe3>=0;
 var Xe4>=0;
 
 /*fonction objectif*/
-minimize fct_objectif: 2*u1u2+4*u1cd+9*u1e1+3*u2cd+cde2+2*e2e1;
+minimize fct_objectif: 2*Xu1u2+4*Xu1cd+9*Xu1e1+3*Xu2cd+Xcde2+2*Xe2e1;
 
 /*les contraites*/
 subject to containte0 : Xu1u2 + Xu1cd + Xu1e1 = 50;
